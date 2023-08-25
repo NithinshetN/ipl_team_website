@@ -1,0 +1,1530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ipl</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg sticky-top " style="background-color: #e3f2fd; ;border-top: 20px solid #3455a7d0;" >
+    <div class="container-xl hstack gap-3">
+      <a class="navbar-brand" href="#">
+        <img src="img/ipl.png" alt="Logo" width="95" height="50" class="d-inline-block align-text-top">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item ">
+            <a class="nav-link btn btn-primary" aria-current="page" href="#" role="button">Home</a>
+          </li>
+          <li class="nav-item">
+            <div class="dropdown">
+              <a class="btn  dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Teams
+              </a>
+
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal1"><img
+                      src="image/RCBoutline.png" style="width: 40px;"><span> </span>RCB</a>
+                </li>
+                <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal2"><img
+                      src="image/CSKoutline.png" style="width: 40px;"><span> </span>CSK</a>
+                </li>
+                <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal3"><img
+                      src="image/MIoutline.png" style="width: 40px;"><span> </span>MI</a>
+                </li>
+                <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal4"><img
+                      src="image/PBKSoutline.png" style="width: 40px;"><span> </span>PBKS</a>
+                </li>
+                <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal5"><img
+                      src="image/LSGoutline.png" style="width: 40px;"><span> </span>LSG</a>
+                </li>
+                <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal6"><img
+                      src="image/GToutline.png" style="width: 40px;"><span> </span>GT</a>
+                </li>
+                <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal7"><img
+                      src="image/DCoutline.png" style="width: 40px;"><span> </span>DC</a>
+                </li>
+                <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal8"><img
+                      src="image/KKRoutline.png" style="width: 40px;"><span> </span>KKR</a>
+                </li>
+                <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal9"><img
+                      src="image/SRHoutline.png" style="width: 40px;"><span> </span>SRH</a>
+                </li>
+                <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal10"><img
+                      src="image/RRoutline.png" style="width: 40px;"><span> </span>RR</a>
+                </li>
+
+              </ul>
+            </div>
+          <li class="nav-item ">
+            <a class="nav-link btn btn-primary" aria-current="page" href="#" role="button">News</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+  <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel" data-bs-ride="carousel" id="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="3000" style="height: 85vh; background-size: cover; opacity: 1;">
+        <img src="image/slide.jpg" class="d-block w-100" alt="...">
+
+      </div>
+      <div class="carousel-item" data-bs-interval="3000" style="height: 85vh; background-size: cover; opacity: 1;">
+        <img src="image/win.jpg" class="d-block w-100" alt="...">
+
+      </div>
+      <div class="carousel-item" data-bs-interval="3000" style="height: 85vh; background-size: cover; opacity: 1;">
+        <img src="image/slide3.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="3000" style="height: 85vh; background-size: cover; opacity: 1;">
+        <img src="image/slide6.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="3000" style="height: 85vh; background-size: cover; opacity: 1;">
+        <img src="image/slide8.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="banner">
+
+  </div>
+  <div class="container mt-2  p-3 heading">
+    <h1><span>|</span>Teams</h1>
+    <hr></hr>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="mb-5 p-2 bg-body-tertiary rounded text-center" id="card">
+          <img src="image/RCBoutline.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Royal Challenger Bangalore</h3>
+            <button type="button" class="btn btn-outline-primary mt-2" data-bs-toggle="modal"
+              data-bs-target="#exampleModal1">
+              Know More &gt;
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="mb-5 p-2 bg-body-tertiary rounded text-center" id="card">
+          <img src="image/CSKoutline.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Chennai Super Kings</h3>
+            <button type="button" class="btn btn-outline-primary mt-2" data-bs-toggle="modal"
+              data-bs-target="#exampleModal2">
+              Know More &gt;
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="mb-5 p-2 bg-body-tertiary rounded text-center" id="card">
+          <img src="image/MIoutline.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Mumbai Indians</h3>
+            <button type="button" class="btn btn-outline-primary mt-2" data-bs-toggle="modal"
+              data-bs-target="#exampleModal3">
+              Know More &gt;
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="mb-5 p-2 bg-body-tertiary rounded text-center" id="card">
+          <img src="image/PBKSoutline.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Punjab Kings</h3>
+            <button type="button" class="btn btn-outline-primary mt-2" data-bs-toggle="modal"
+              data-bs-target="#exampleModal4">
+              Know More &gt;
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="mb-5 p-2 bg-body-tertiary rounded text-center" id="card">
+          <img src="image/LSGoutline.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Lucknow Super Giants</h3>
+            <button type="button" class="btn btn-outline-primary mt-2" data-bs-toggle="modal"
+              data-bs-target="#exampleModal5">
+              Know More &gt;
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="mb-5 p-2 bg-body-tertiary rounded text-center" id="card">
+          <img src="image/GToutline.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Gujarat Titans</h3>
+            <button type="button" class="btn btn-outline-primary mt-2" data-bs-toggle="modal"
+              data-bs-target="#exampleModal6">
+              Know More &gt;
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="mb-5 p-2 bg-body-tertiary rounded text-center" id="card">
+          <img src="image/DCoutline.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Delhi Capitals</h3>
+            <button type="button" class="btn btn-outline-primary mt-2" data-bs-toggle="modal"
+              data-bs-target="#exampleModal7">
+              Know More &gt;
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="mb-5 p-2 bg-body-tertiary rounded text-center" id="card">
+          <img src="image/KKRoutline.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Kolkata Knight Riders</h3>
+            <button type="button" class="btn btn-outline-primary mt-2" data-bs-toggle="modal"
+              data-bs-target="#exampleModal8">
+              Know More &gt;
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="mb-5 p-2 bg-body-tertiary rounded text-center" id="card">
+          <img src="image/SRHoutline.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Sunrisers Hyderabad</h3>
+            <button type="button" class="btn btn-outline-primary mt-2" data-bs-toggle="modal"
+              data-bs-target="#exampleModal9">
+              Know More &gt;
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="mb-5 p-2 bg-body-tertiary rounded text-center" id="card">
+          <img src="image/RRoutline.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Rajasthan Royals</h3>
+            <button type="button" class="btn btn-outline-primary mt-2" data-bs-toggle="modal"
+              data-bs-target="#exampleModal10">
+              Know More &gt;
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+<div class="footer">
+  
+</div>
+  <div class="modal fade modal-xl" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel"><img src="image/RCBoutline.png"
+              style="width: 40px;"><span> </span>Royal Challengers Bangalore</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="image/rcb/1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Faf duplesis(c)</h5>
+                  <p class="card-text">Batter</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/rcb/2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Virat Kholi</h5>
+                  <p class="card-text">Batter</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/rcb/3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Anuj Rawath</h5>
+                  <p class="card-text">wk-keeper Batter</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/rcb/4.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Dinesh Karthik</h5>
+                  <p class="card-text">wk-keeper Batter</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/rcb/5.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Suyash Prabhudesai</h5>
+                  <p class="card-text">Batter</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/rcb/6.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Glen Maxwell</h5>
+                  <p class="card-text">All-Rounder</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/rcb/7.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Mahipal Lomeror</h5>
+                  <p class="card-text">All-Rounder</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/rcb/8.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Mohamad Siraj</h5>
+                  <p class="card-text">Bowler</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/rcb/9.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Rece Topley</h5>
+                  <p class="card-text">Bowler</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/rcb/10.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Harshal Patel</h5>
+                  <p class="card-text">Bowler</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/rcb/11.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Shahbaz Ahmed</h5>
+                  <p class="card-text">Bowler</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/rcb/12.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Wanindu Hasaranga</h5>
+                  <p class="card-text">All-Rounder</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade modal-xl" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel"><img src="image/CSKoutline.png"
+              style="width: 40px;"><span> </span>Chennai Super Kings</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="image/csk/1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Ms Dhoni(c)</h5>
+                  <p class="card-text">Wk-keeper Batter</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/csk/2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Devon Convey</h5>
+                  <p class="card-text">Batter</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/csk/3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Ruturaj Gaikwad</h5>
+                  <p class="card-text">Batter</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/csk/4.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Subhranshu Senapathi</h5>
+                  <p class="card-text">Batter</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/csk/5.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Shivam Dubey</h5>
+                  <p class="card-text">Batter</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/csk/6.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Ambati Raydu</h5>
+                  <p class="card-text">Batter</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/csk/7.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Ajinkya Rahane</h5>
+                  <p class="card-text">Batter</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/csk/8.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Moen Ali</h5>
+                  <p class="card-text">All-Rounder</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/csk/9.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Ravindra Jadeja</h5>
+                  <p class="card-text">All-Rounder</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/csk/10.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Mahesha Theekshana</h5>
+                  <p class="card-text">Bowler</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/csk/11.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Deepak Chahar</h5>
+                  <p class="card-text">Bowler</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/csk/12.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Benstokes</h5>
+                  <p class="card-text">All-Rounder</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade modal-xl" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel"><img src="image/MIoutline.png" style="width: 40px;"><span>
+            </span>Mumbai Indians</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="image/mi/1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Rohit Sharma(c)</h5>
+                  <p class="card-text">Batter</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/mi/2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Deval Bravis</h5>
+                  <p class="card-text">Batter</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/mi/3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Suryakumar Yadav</h5>
+                  <p class="card-text">Batter</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/mi/4.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Ishan Kishan</h5>
+                  <p class="card-text">wk-keeper Batter</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/mi/5.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Tilak varma</h5>
+                  <p class="card-text">Batter</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/mi/6.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Tim David</h5>
+                  <p class="card-text">Batter</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/mi/7.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Arjun Tendulkar</h5>
+                  <p class="card-text">Bowler</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/mi/8.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Jofra Archer</h5>
+                  <p class="card-text">Bowler</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/mi/9.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Cameron Green</h5>
+                  <p class="card-text">All-Rounder</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/mi/10.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Nehal Wadera</h5>
+                  <p class="card-text">All-Rounder</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/mi/11.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Piyush chawla</h5>
+                  <p class="card-text">Bowler</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/mi/12.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Jason Bherendhof</h5>
+                  <p class="card-text">Bowler</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Punjab Kings-->
+  <div class="modal fade modal-xl" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel"><img src="image/PBKSoutline.png"
+              style="width: 40px;"><span> </span>Punjab Kings</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="image/pb/1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/pb/2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/pb/3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/pb/4.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/pb/5.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/pb/6.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/pb/7.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/pb/8.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/pb/9.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/pb/10.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/pb/11.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/pb/12.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- lucknow super giants -->
+  <div class="modal fade modal-xl" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel"><img src="image/LSGoutline.png"
+              style="width: 40px;"><span> </span>Lucknow Super Giants</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="image/lsg/1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/lsg/2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/lsg/3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/lsg/4.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/lsg/5.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/lsg/6.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/lsg/7.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/lsg/8.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/lsg/9.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/lsg/10.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/lsg/11.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/lsg/12.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Gujarat Titans -->
+  <div class="modal fade modal-xl" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel"><img src="image/GToutline.png" style="width: 40px;"><span>
+            </span>Gujarat Titans</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="image/gt/1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/gt/2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/gt/3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/gt/4.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/gt/5.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/gt/6.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/gt/7.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/gt/8.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/gt/9.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/gt/10.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/gt/11.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/gt/12.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Delhi Capitals -->
+  <div class="modal fade modal-xl" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel"><img src="image/DCoutline.png" style="width: 40px;"><span>
+            </span>Delhi Capitals</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="image/dc/1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/dc/2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/dc/3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/dc/4.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/dc/5.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/dc/6.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/dc/7.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/dc/8.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/dc/9.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/dc/10.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/dc/11.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/dc/12.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Kolkata Knight Riders -->
+  <div class="modal fade modal-xl" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel"><img src="image/KKRoutline.png"
+              style="width: 40px;"><span> </span>Kolkata Knight Riders</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="image/kkr/1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/kkr/2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/kkr/3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/kkr/4.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/kkr/5.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/kkr/6.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/kkr/7.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/kkr/8.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/kkr/9.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/kkr/10.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/kkr/11.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/kkr/12.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Sunrisers Hyderabad -->
+  <div class="modal fade modal-xl" id="exampleModal9" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel"><img src="image/SRHoutline.png"
+              style="width: 40px;"><span> </span>Sunrisers Hyderabad</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="image/srh/1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/srh/2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/srh/3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/srh/4.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/srh/5.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/srh/6.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/srh/7.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/srh/8.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/srh/9.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/srh/10.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/srh/11.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/srh/12.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Rajasthan Royals -->
+  <div class="modal fade modal-xl" id="exampleModal10" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel"><img src="image/RRoutline.png" style="width: 40px;"><span>
+            </span>Rajasthan Royals</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="image/rr/1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/rr/2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/rr/3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/rr/4.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/rr/5.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/rr/6.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/rr/7.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/rr/8.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/rr/9.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/rr/10.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/rr/11.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="image/rr/12.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
